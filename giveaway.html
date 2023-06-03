@@ -22,42 +22,38 @@
 
     <form>
         <section>
-            <div>
+            <fieldset>
             <!--personal info: name, email, etc-->
-            <h2>Personal Information</h2>
-            <label for="fname">First Name</label>
-            <input id="fname" type="text" name="first_name" placeholder="First Name" required>
+                <legend>Personal Information</legend>
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" name="first_name" placeholder="First Name" required>
 
-            <label for="lname">Last Name</label>
-            <input id="lname" type="text" name="last_name" placeholder="Last Name" required>
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" name="last_name" placeholder="Last Name" required>
 
-            <label for="email">Email Address</label>
-            <input id="email" type="email" name="email" placeholder="Email Address" required>
+                <label for="email">Email Address</label>
+                <input id="email" type="email" name="email" placeholder="Email Address" required>
 
-            <label for="phone">Phone Number</label>
-            <input id="phone" type="tel" name="phone_number" placeholder="Phone Number" required>
-            </div>
+                <label for="phone">Phone Number</label>
+                <input id="phone" type="tel" name="phone_number" placeholder="Phone Number" required>
+            </fieldset>
         </section>
         <section>
-            <div>
             <!--preferred menu items checklist-->
-            <h2>Menu Items</h2>
-            <label for="fav_menu">
-                <span>What are your favourite menu items?</span><br>
-                <span><em>(Please check all that apply)</em></span>
-            </label>
-            <input id="fav_menu" list="menu" name="fav_menu" required>
-            <datalist id="menu">
-                <option value="Pancakes">
-                <option value="Banana Muffin">
-                <option value="Raspberry Muffin">
-                <option value="Peanut Butter Cookie">
-                <option value="Sparkling Water">
-                <option value="Tea">
-                <option value="Coffee">
-                <option value="Apple Juice">
-            </datalist>
-            </div>
+            
+            <fieldset>
+                <legend>Menu Items</legend>
+                <h2>What are your preferred menu items?</h2>
+                <p>(Please check all that apply)</p>
+                <input type="checkbox" name="menu_items" value="Pancakes">Pancakes<br>
+                <input type="checkbox" name="menu_items" value="Banana Muffin">Banana Muffin<br>
+                <input type="checkbox" name="menu_items" value="Raspberry Muffin">Raspberry Muffin<br>
+                <input type="checkbox" name="menu_items" value="Peanut Butter Cookie">Peanut Butter Cookie<br>
+                <input type="checkbox" name="menu_items" value="Sparkling Water">Sparkling Water<br>
+                <input type="checkbox" name="menu_items" value="Tea">Tea<br>
+                <input type="checkbox" name="menu_items" value="Coffee">Coffee<br>
+                <input type="checkbox" name="menu_items" value="Apple Juice">Apple Juice<br>
+            </fieldset>
         <section>
             <div>
             <!--favourite cat and why: radio buttons and text area-->
