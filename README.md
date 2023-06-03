@@ -19,13 +19,15 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 ## Testing
 ### Bugs
 - Incorrect syntax in the [style.css](assets/css/style.css) file prevented CSS styling showing in the deployed webpage. Changing 
-```body {
+```
+body {
     background-color: aqua;
     color: crimson;
 }
 ``` 
 to 
-```p {background-color: aqua;
+```
+p {background-color: aqua;
     color: crimson;
 }
 ```
