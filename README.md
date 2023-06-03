@@ -34,6 +34,7 @@ p {
 ```
 resolved the issue.
 - An unneccessary space in the markdown for the inline links in the Credits section of this README was causing both the display text and the full url to show.
+- A syntax issue was causing the checkbox list in the Menu Items section of the [Prize Draw](giveaway.html) form to display as a text input.
 
 
 ### Validator Testing
@@ -46,5 +47,6 @@ resolved the issue.
 ### Content
 - The README was created and formatted based on Code Institute's [Sample README](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) and [README Template](https://github.com/Code-Institute-Solutions/readme-template)
 - The [Github tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) was used to learn the markdown syntax for the README
+- This [HTML tutorial](https://html5-tutorial.net/forms/checkboxes/) was used to fix an issue with the checkboxes in the form on the [Prize Draw(giveaway.html)] page
 - The address used for the Google Maps iframe in the [index.html](index.html) file is that of [The Seafood Bar at Kirwan's](https://www.google.com/maps/place/The+Seafood+Bar+at+Kirwan's/@53.2713828,-9.0548901,19z/data=!4m6!3m5!1s0x485b96e594d6a7bb:0xc070c1f7418154b2!8m2!3d53.2713828!4d-9.0543641!16s%2Fg%2F1v1tmhd2?entry=ttu)
 ### Media
