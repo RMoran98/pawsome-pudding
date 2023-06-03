@@ -41,6 +41,7 @@ resolved the issue.
 
 ### Unfixed Bugs
 - Google Maps iframe refuses to display in Firefox, Google Chrome and Microsoft Edge browsers. Other browsers untested.
+- Submit button does not properly redirect to the [thanks](thanks.html) page. The link is present and can be used by right clicking and choosing to open the link in a new tab, but does not function on button press. Tested on Firefox, Google Chrome, and Microsoft Edge.
 ## Deployment
 
 ## Credits
