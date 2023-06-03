@@ -15,6 +15,7 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - The Our Cats page will feature three short bios of the cafe's resident cats, including a photo of each cat.
 - The Prize Draw page will feature a form with various inputs, allowing the user to submit their details for the chance to win a prize. It should also include a brief description of the prize.
 - The submit button for the form will redirect the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. This page will only be accessible by clicking the submit button, and should otherwise be invisible to site visitors.
+- A footer section will feature links to socialmedia sites.
 ## Testing
 ### Bugs
 - Incorrect syntax in the [style.css](assets/css/style.css) file prevented CSS styling showing in the deployed webpage. Changing 
