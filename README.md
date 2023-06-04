@@ -72,6 +72,8 @@ resolved the issue.
 - Photos were edited using [Microsoft Windows 10's inbuilt Photos app](https://www.microsoft.com/en-gb/software-download/windows10)
 
 ### Media
+[Font Awesome](https://fontawesome.com/) icons have been used on all html pages.
+
 Images were taken from [Pexels](https://www.pexels.com/)
 - ["Milo"](https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/)
 - ["Bailey"](https://www.pexels.com/photo/black-and-white-cat-with-tongue-out-1317844/)
