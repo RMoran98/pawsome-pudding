@@ -16,6 +16,14 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - The Prize Draw page will feature a form with various inputs, allowing the user to submit their details for the chance to win a prize. It should also include a brief description of the prize.
 - The submit button for the form will redirect the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. This page will only be accessible by clicking the submit button, and should otherwise be invisible to site visitors.
 
+## Design
+### Color Scheme
+As a cat cafe is a place a customer might go to relax, I wanted a color palette on the cool side of the spectrum, since these colors are more relaxing. I chose a dark purple to begin with, then generated a color palette from there. 
+
+Then I tested my color palette to ensure the colors would be readable and have good contrast once implemented. My results showed that a font color of #5e3a98 and a background color of #fbeaff was the most readable combination. I decided to use the color #00c9a9 as a border color, to add some interest.
+
+### Fonts
+
 ## Testing
 ### Bugs
 - Incorrect syntax in the [style.css](assets/css/style.css) file prevented CSS styling showing in the deployed webpage. Changing 
@@ -50,4 +58,7 @@ resolved the issue.
 - The [Github tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) was used to learn the markdown syntax for the README
 - This [HTML tutorial](https://html5-tutorial.net/forms/checkboxes/) was used to fix an issue with the checkboxes in the form on the [Prize Draw(giveaway.html)] page
 - The address used for the Google Maps iframe in the [index.html](index.html) file is that of [The Seafood Bar at Kirwan's](https://www.google.com/maps/place/The+Seafood+Bar+at+Kirwan's/@53.2713828,-9.0548901,19z/data=!4m6!3m5!1s0x485b96e594d6a7bb:0xc070c1f7418154b2!8m2!3d53.2713828!4d-9.0543641!16s%2Fg%2F1v1tmhd2?entry=ttu)
+- The color palette was generated using [ColorSpace](https://mycolor.space/)
+- [WebAIM](https://webaim.org/resources/contrastchecker/) was used to test the contrast and readability of the color palette
+
 ### Media
