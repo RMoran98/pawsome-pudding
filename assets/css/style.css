@@ -8,6 +8,7 @@ div, header, footer {
     color:#5e3a98;
     padding: 20px;
 }
+
 header, footer {
     margin: 0;
 }
@@ -16,6 +17,7 @@ div {
     border: 2px solid #00c9a9;
     margin: 20px;
 }
+
 header {
     border-bottom: 2px solid#00c9a9;
 }
@@ -38,4 +40,13 @@ p, li, label {
     width: 300px;
     border-radius: 50%;
     border: 2px solid #00c9a9;
+}
+
+/* Font Awesome icons */
+.fa-paw {
+    color:#00c9a9
+}
+
+.fa-brands {
+    color:#00c9a9;
 }
