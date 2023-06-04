@@ -69,9 +69,10 @@ resolved the issue.
 - [WebAIM](https://webaim.org/resources/contrastchecker/) was used to test the contrast and readability of the color palette
 - The Wireframes were created using [balsamiq](https://balsamiq.com/)
 - The code repository was created from this [Code Institute template](https://github.com/Code-Institute-Org/ci-full-template)
+- Photos were edited using [Microsoft Windows 10's inbuilt Photos app](https://www.microsoft.com/en-gb/software-download/windows10)
 
 ### Media
-Images were taken from [Pexels]()
+Images were taken from [Pexels](https://www.pexels.com/)
 - ["Milo"](https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/)
 - ["Bailey"](https://www.pexels.com/photo/black-and-white-cat-with-tongue-out-1317844/)
 - ["Kaz"](https://www.pexels.com/photo/black-cat-1931369/)
