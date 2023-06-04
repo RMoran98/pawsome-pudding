@@ -1,3 +1,7 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+
 /* Generic Styling */
 div, header, footer {
     background-color:#fbeaff;
@@ -18,6 +22,14 @@ header {
 
 footer {
     border-top: 2px solid#00c9a9;
+}
+
+h1, h2, legend {
+    font-family: "Montserrat", sans-serif;
+}
+
+p, li, label {
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Images */
