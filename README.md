@@ -71,3 +71,8 @@ resolved the issue.
 - The code repository was created from this [Code Institute template](https://github.com/Code-Institute-Org/ci-full-template)
 
 ### Media
+Images were taken from [Pexels]()
+- ["Milo"](https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/)
+- ["Bailey"](https://www.pexels.com/photo/black-and-white-cat-with-tongue-out-1317844/)
+- ["Kaz"](https://www.pexels.com/photo/black-cat-1931369/)
+- [Background Image](https://www.pexels.com/photo/woman-with-smartphone-stroking-cat-on-sofa-6957655/)
