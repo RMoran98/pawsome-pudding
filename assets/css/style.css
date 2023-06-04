@@ -2,10 +2,15 @@
 div, header, footer {
     background-color:#fbeaff;
     color:#5e3a98;
+    padding: 20px;
+}
+header, footer {
+    margin: 0;
 }
 
 div {
     border: 2px solid #00c9a9;
+    margin: 20px;
 }
 header {
     border-bottom: 2px solid#00c9a9;
