@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Metadata-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Rachel Moran">
+    <meta name="description" content="A website for a cat cafe">
+    <meta name="keywords" content="cats, kittens, pets, cafe, food, menu">
+
+    <!--Page title-->
+    <title>Pawsome Pudding - Prize Draw</title>
+
+    <!--The link to the CSS stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!--The code for Font Awesome icons-->
     <script src="https://kit.fontawesome.com/e54f532bef.js" crossorigin="anonymous"></script>
-
 </head>
+
 <body>
     <header>
+        <!--The company name, tagline, and a logo-->
         <h1>Pawsome Pudding</h1>
-        <!--remember to add tagline and logo-->
         <p><em>Pastries only a paw away!</em> <i class="fa-solid fa-paw"></i></p>
+
         <nav>
+            <!--The navigation bar-->            
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="cats.html">Our Cats</a></li>
@@ -24,8 +35,12 @@
         </nav>
     </header>
 
-    <form>
-        <section>
+    <main>
+        <!--The Prize details-->
+        <h2>Enter our prize draw to win a free lunch date with a cat of your choice!</h2>
+
+        <form method="get" action="thanks.html">
+
             <fieldset>
             <!--personal info: name, email, etc-->
                 <legend>Personal Information</legend>
@@ -39,12 +54,10 @@
                 <input id="email" type="email" name="email" placeholder="Email Address" required>
 
                 <label for="phone">Phone Number</label>
-                <input id="phone" type="tel" name="phone_number" placeholder="Phone Number" required>
+                <input id="phone" type="tel" name="phone_number" placeholder="Phone Number">
             </fieldset>
-        </section>
-        <section>
+        
             <!--preferred menu items checklist-->
-            
             <fieldset>
                 <legend>Menu Items</legend>
                 <h2>What are your preferred menu items?</h2>
@@ -58,7 +71,7 @@
                 <input type="checkbox" name="menu_items" value="Coffee">Coffee<br>
                 <input type="checkbox" name="menu_items" value="Apple Juice">Apple Juice<br>
             </fieldset>
-        <section>
+
             <fieldset>
             <!--favourite cat and why: radio buttons and text area-->
                 <legend>Favourite Cat</legend>
@@ -75,18 +88,18 @@
                 <br>
 
                 <!--text area-->
-                <textarea name="why_cat" placeholder="I like this cat because..." rows="15" cols="80"></textarea>
+                <textarea name="why_cat" placeholder="I like this cat because..." rows="15" cols="80" resize="vertical"></textarea>
             </fieldset>
-        <!--submit button-->
-        <a href="thanks.html">
-            <input type="submit" value="Enter Draw">
-        </a>
 
-        <!--remember to redirect them to a thank you page on hitting submit-->
-        </section>
-    </form>
+        <!--submit button-->
+        <button type="submit">Enter Draw</button>
+        
+        </form>
+    </main>
+    
     <footer>
         <ul>
+            <!--The social media links-->
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a></li>
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa-brands fa-square-facebook"></i></a></li>
             <li><a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa-brands fa-square-twitter"></i></a></li>
