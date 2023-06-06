@@ -1,11 +1,18 @@
 /*Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
 
+/* Global Styling */
+* {
+    margin:0;
+}
 
 /* Generic Styling */
-div, header, footer {
+body {
+    background-color: lightslategray;
+}
+
+section, header, footer {
     background-color:#fbeaff;
-    color:#5e3a98;
     padding: 20px;
 }
 
@@ -13,7 +20,7 @@ header, footer {
     margin: 0;
 }
 
-div {
+section {
     border: 2px solid #00c9a9;
     margin: 20px;
 }
@@ -26,6 +33,10 @@ footer {
     border-top: 2px solid#00c9a9;
 }
 
+h1, h2, legend, p, li, label {
+    color: #5E3A98;
+}
+
 h1, h2, legend {
     font-family: "Montserrat", sans-serif;
 }
@@ -34,13 +45,32 @@ p, li, label {
     font-family: "Open Sans", sans-serif;
 }
 
+fieldset {
+    border: 2px solid #00c9a9;
+}
+
 /* Images */
-.cat-img {
-    height: 300px;
-    width: 300px;
+figure {
+    height: 300rem;
+    width: 300rem;
     border-radius: 50%;
     border: 2px solid #00c9a9;
 }
+
+.cat-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+figcaption {
+    border: 2px solid #00c9a9;
+    padding: 20px;
+}
+
+
 
 /* Font Awesome icons */
 .fa-paw {
