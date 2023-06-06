@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Metadata-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Rachel Moran">
+    <meta name="description" content="A website for a cat cafe">
+    <meta name="keywords" content="cats, kittens, pets, cafe, food, menu">
+
+    <!--Page title-->
+    <title>Pawsome Pudding - Our Cats</title>
+
+    <!--The link to the CSS stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!--The code for Font Awesome icons-->
     <script src="https://kit.fontawesome.com/e54f532bef.js" crossorigin="anonymous"></script>
-
 </head>
+
 <body>
     <header>
+        <!--The company name, tagline, and a logo-->
         <h1>Pawsome Pudding</h1>
-        <!--remember to add tagline and logo-->
         <p><em>Pastries only a paw away!</em> <i class="fa-solid fa-paw"></i></p>
+
         <nav>
+            <!--The navigation bar-->
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="cats.html">Our Cats</a></li>
@@ -23,29 +34,40 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
-            <!--cat profile 1-->
-            <!--image goes here-->
+    <main>
+            
+        <!--Kaz' cat profile with image and description-->
+        <figure class="cat-container">
             <img src="assets/images/kaz.jpg" class="cat-img" alt="A black cat sitting on the back of a sofa.">
+            
+            <figcaption>
             <h2>Kaz</h2>
             <p>Kaz is a 7 year old shorthair cat. He has been with us from the beginning and loves to have his belly rubbed. A rascal with the most energetic personality of our resident cats.</p>
-        </div>
-        <div>
-            <!--cat profile 2-->
-            <!--image goes here-->
+            </figcaption>
+        </figure>
+
+        <!--Bailey's cat profile with image and description-->
+        <figure>
             <img src="assets/images/bailey.jpg" class="cat-img" alt="A black and white kitten meowing with its mouth open wide.">
+            
+            <figcaption>
             <h2>Bailey</h2>
             <p>Bailey is a 1 year old tuxedo cat. We think his fur pattern makes him look quite snazzy. Although he's dressed to impress, Bailey is quite shy, and is more likely to spend time with our regular customers. His favourite spot for you to scratch is his chin.</p>
-        </div>
-        <div>
-            <!--cat profile 3-->
-            <!--image goes here-->
-            <img src="assets/images/milo" class="cat-img" alt="A large ginger tabby cat sitting by a window.">
+            </figcaption>
+        </figure>
+
+        <!--Milo's cat profile with image and description-->
+        <figure class="cat-container">
+            <img src="assets/images/milo.jpg" class="cat-img" alt="A large ginger tabby cat sitting by a window.">
+            
+            <figcaption>
             <h2>Milo</h2>
             <p>At 12 years old, Milo is our oldest cat. Sunbathing is his favourite activity, so you can usually find him in his windowseat. If you sit next to him, be prepared to hold a conversation, because his second favourite activity is meowing for attention.</p>
-        </div>
-    </section>
+            </figcaption>
+        </figure>
+
+    </main>
+
     <footer>
         <ul>
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a></li>
