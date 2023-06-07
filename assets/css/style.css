@@ -8,7 +8,7 @@
 
 /* Generic Styling */
 body {
-    background-color: lightslategray;
+    background-color: lightgray;
 }
 
 section, header, footer {
@@ -51,8 +51,8 @@ fieldset {
 
 /* Images */
 figure {
-    height: 300rem;
-    width: 300rem;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     border: 2px solid #00c9a9;
 }
@@ -68,6 +68,7 @@ figure {
 figcaption {
     border: 2px solid #00c9a9;
     padding: 20px;
+    background-color: #fbeaff;
 }
 
 
