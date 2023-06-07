@@ -11,6 +11,14 @@ body {
     background-color: lightgray;
 }
 
+main {
+    background-image: url(assets/images/background.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
 section, header, footer {
     background-color:#fbeaff;
     padding: 20px;
@@ -115,7 +123,7 @@ button {
 
 .cat-bio {
     border: 2px solid #00c9a9;
-    padding: 20px;
+    padding: 120px, 20px;
     background-color: #fbeaff;
     max-width: 70%;
 }
