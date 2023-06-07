@@ -68,6 +68,13 @@ button {
     padding: 20px 60px;
 }
 
+/* Home */
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
 /* Our Cats */
 .cat-align {
     display: flex;
