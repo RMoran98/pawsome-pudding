@@ -27,6 +27,7 @@ section {
 
 header {
     border-bottom: 2px solid#00c9a9;
+    text-align:center;
 }
 
 footer {
@@ -39,6 +40,10 @@ h1, h2, legend, p, li, label {
 
 h1, h2, legend {
     font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    text-align: center;
 }
 
 p, li, label, fieldset {
