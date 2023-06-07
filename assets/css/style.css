@@ -54,11 +54,13 @@ ul {
 }
 
 /* Images */
-figure {
+.cat-container {
     height: 300px;
     width: 300px;
     border-radius: 50%;
     border: 2px solid #00c9a9;
+    display: flex;
+    justify-content: left;
 }
 
 .cat-img {
@@ -69,10 +71,12 @@ figure {
     border-radius: 50%;
 }
 
-figcaption {
+.cat-bio {
     border: 2px solid #00c9a9;
     padding: 20px;
     background-color: #fbeaff;
+    display: flex;
+    justify-content: center;
 }
 
 /* Nav bar and footer links styling */
