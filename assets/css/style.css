@@ -59,6 +59,11 @@ ul {
     flex-direction: row;
     justify-content: center;
 }
+
+.flip-cat {
+    flex-direction: row-reverse;
+}
+
 .cat-container {
     height: 300px;
     width: 300px;
@@ -78,6 +83,7 @@ ul {
     border: 2px solid #00c9a9;
     padding: 20px;
     background-color: #fbeaff;
+    max-width: 70%;
 }
 
 /* Nav bar and footer links styling */
