@@ -41,16 +41,26 @@ h1, h2, legend {
     font-family: "Montserrat", sans-serif;
 }
 
-p, li, label {
+p, li, label, fieldset {
     font-family: "Open Sans", sans-serif;
 }
 
 fieldset {
     border: 2px solid #00c9a9;
+    background-color:#fbeaff;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 ul {
     list-style-type: none;
+}
+
+button {
+    background-color:#5E3A98;
+    color:#fbeaff;
+    border: 5px outset;
+    padding: 20px 60px;
 }
 
 /* Our Cats */
