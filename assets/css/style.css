@@ -49,6 +49,10 @@ fieldset {
     border: 2px solid #00c9a9;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Images */
 figure {
     height: 300px;
@@ -71,7 +75,12 @@ figcaption {
     background-color: #fbeaff;
 }
 
-
+/* Nav bar and footer links styling */
+.bar-link {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
 
 /* Font Awesome icons */
 .fa-paw {
