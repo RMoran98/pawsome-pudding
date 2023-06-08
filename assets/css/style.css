@@ -86,6 +86,7 @@ button {
     color:#fbeaff;
     border: 5px outset;
     padding: 20px 60px;
+    margin-left: 20px;
 }
 
 /* Home */
@@ -134,6 +135,13 @@ button {
     padding: 120px, 20px;
     background-color: #fbeaff;
     max-width: 70%;
+}
+
+/* Prize Draw styling */
+.form-rows {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
 }
 
 /* Nav bar and footer links styling */
