@@ -9,10 +9,7 @@
 /* Generic Styling */
 body {
     background-color: lightgray;
-}
-
-main {
-    background-image: url(assets/images/background.jpg);
+    background-image: ("../images/background.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -85,7 +82,7 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    background-color: lightgray;
+    background-color: transparent;
     border: none;
     margin: 0;
     padding: 0;
