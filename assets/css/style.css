@@ -31,12 +31,20 @@ section {
 }
 
 header {
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+nav {
     border-bottom: 2px solid#00c9a9;
-    text-align:center;
+    position: sticky;
 }
 
 footer {
     border-top: 2px solid#00c9a9;
+    position: fixed;
+    bottom: 0;
 }
 
 h1, h2, legend, p, li, label {
