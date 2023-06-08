@@ -17,12 +17,22 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - The submit button for the form will redirect the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. This page will only be accessible by clicking the submit button, and should otherwise be invisible to site visitors.
 
 ## Design
+### User Stories
+- As a vegetarian/vegan, I want to see the menu displayed on the website, so that I know if this cafe will cater to my needs.
+- As a new customer, I want to see an address, and a map, so that I can easily find the cafe.
+- As a regular customer, I want to see special offers, so that I can be rewarded for my patronage.
+- As a cat lover, I want to see information about the cafe’s cats, so that I know they are well looked after.
+- As someone planning a party, I want to see contact information, so I can arrange a booking here.
+- As a visually impaired person, I want links to have text for my screen reader, so that the website is accessible for me.
+- As a smartphone user, I want the website to adapt to the size of my screen, so that it remains readable for me.
+
 ### Color Scheme
 As a cat cafe is a place a customer might go to relax, I wanted a color palette on the cool side of the spectrum, since these colors are more relaxing. I chose a dark purple to begin with, then generated a color palette from there. 
 
 Then I tested my color palette to ensure the colors would be readable and have good contrast once implemented. My results showed that a font color of #5e3a98 and a background color of #fbeaff was the most readable combination. I decided to use the color #00c9a9 as a border color, to add some interest.
 
 ### Fonts
+For accessibility purposes, I wanted an easy to read font. I researched the fonts available from Google Fonts and decided to use the Open Sans font for main text, combined with Montserrat for the headings.
 
 ## Testing
 ### Resolved Bugs
@@ -75,6 +85,8 @@ to the opening form tag resolved the issue.
 - The [Github tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) was used to learn the markdown syntax for the README
 - This [HTML tutorial](https://html5-tutorial.net/forms/checkboxes/) was used to fix an issue with the checkboxes in the form on the [Prize Draw(giveaway.html)] page
 - The address used for the Google Maps iframe in the [index.html](index.html) file is that of [The Seafood Bar at Kirwan's](https://www.google.com/maps/place/The+Seafood+Bar+at+Kirwan's/@53.2713828,-9.0548901,19z/data=!4m6!3m5!1s0x485b96e594d6a7bb:0xc070c1f7418154b2!8m2!3d53.2713828!4d-9.0543641!16s%2Fg%2F1v1tmhd2?entry=ttu)
+- The fonts used were obtained from [Google Fonts](https://fonts.google.com/)
+- For the flexbox CSS, I followed two tutorials; [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [Kevin Powell](https://www.youtube.com/watch?v=u044iM9xsWU)
 
 
 ### Tools and Technologies
