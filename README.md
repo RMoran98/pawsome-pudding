@@ -11,10 +11,12 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - The Contact section features the telephone, email address, and the physical address of the cafe.
 - A Map section features an embedded map so visitors can also have a visual guide for the location of the cafe.
 - The footer section features links to social media sites. The footer is the same across all pages.
-### Features Left to Implement
 - The Our Cats page will feature three short bios of the cafe's resident cats, including a photo of each cat.
 - The Prize Draw page will feature a form with various inputs, allowing the user to submit their details for the chance to win a prize. It should also include a brief description of the prize.
 - The submit button for the form will redirect the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. This page will only be accessible by clicking the submit button, and should otherwise be invisible to site visitors.
+
+### Features Left to Implement
+- The navigation bar was intended to be sticky, remaining at the top of the page when the user scrolls down, while the rest of the header remains in place. At present this is beyond my capabilities, but can be added in the future.
 
 ## Design
 ### User Stories
@@ -55,19 +57,19 @@ resolved the issue.
 - A syntax issue was causing the checkbox list in the Menu Items section of the [Prize Draw](giveaway.html) form to display as a text input. Changing it from a datalist to checkbox tags resolved the issue.
 - Submit button was not properly redirecting to the [thanks](thanks.html) page. 
 Changing
-'''
+```
 <a href="thanks.html">
   <input type=submit value="Enter Draw">
 </a>
-'''
+```
 to
-'''
+```
  <button type="submit">Enter Draw</button>
-'''
+```
 and adding
-'''
+```
 method="get" action="thanks.html"
-'''
+```
 to the opening form tag resolved the issue.
 - A missing .jpg file extension was preventing the image for [Milo](assets/images/milo) from showing in the [Our Cats](cats.html) page.
 - The background image was not displaying as intended. Moving the background image css from the main tag into the body tag styling, changing the background-color value to transparent for the columns class and using a relative file path for the image resolved the issue.
@@ -78,6 +80,9 @@ to the opening form tag resolved the issue.
 ### Validator Testing
 
 ## Deployment
+To deploy this website, first clone it under the code dropdown menu at the [GitHub Respository](https://github.com/RMoran98/pawsome-pudding). Next, navigate to settings > pages in the cloned GitHub repository. Under Build and Deployment > Branch, select main for the branch and save. 
+
+The live link for the website can be found [here](https://rmoran98.github.io/pawsome-pudding/).
 
 ## Credits
 ### Content
@@ -99,6 +104,7 @@ to the opening form tag resolved the issue.
 - The Wireframes were created using [balsamiq](https://balsamiq.com/)
 - The code repository was created from this [Code Institute template](https://github.com/Code-Institute-Org/ci-full-template)
 - Photos were edited using [Microsoft Windows 10's inbuilt Photos app](https://www.microsoft.com/en-gb/software-download/windows10)
+- The code to redirect the user from thanks.html back to index.html was provided by [Iullia Konovalova](https://github.com/IuliiaKonovalova).
 
 ### Media
 [Font Awesome](https://fontawesome.com/) icons have been used on all html pages.
