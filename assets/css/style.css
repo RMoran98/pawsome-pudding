@@ -80,6 +80,8 @@ h2 > fieldset {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 button {
@@ -103,6 +105,10 @@ button {
 
 .home-box {
     width: 42.5%;
+}
+
+menu {
+    text-align: center;
 }
 
 /* Our Cats */
