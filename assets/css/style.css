@@ -9,7 +9,7 @@
 /* Generic Styling */
 body {
     background-color: lightgray;
-    background-image: ("../images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
