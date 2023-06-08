@@ -92,6 +92,7 @@ The live link for the website can be found [here](https://rmoran98.github.io/paw
 - The address used for the Google Maps iframe in the [index.html](index.html) file is that of [The Seafood Bar at Kirwan's](https://www.google.com/maps/place/The+Seafood+Bar+at+Kirwan's/@53.2713828,-9.0548901,19z/data=!4m6!3m5!1s0x485b96e594d6a7bb:0xc070c1f7418154b2!8m2!3d53.2713828!4d-9.0543641!16s%2Fg%2F1v1tmhd2?entry=ttu)
 - The fonts used were obtained from [Google Fonts](https://fonts.google.com/)
 - For the flexbox CSS, I followed two tutorials; [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [Kevin Powell](https://www.youtube.com/watch?v=u044iM9xsWU)
+- This [Yale University tutorial](https://usability.yale.edu/web-accessibility/articles/links) was used to add text for screen readers to the header and footer links.
 
 
 ### Tools and Technologies
