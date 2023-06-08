@@ -25,7 +25,7 @@ Then I tested my color palette to ensure the colors would be readable and have g
 ### Fonts
 
 ## Testing
-### Bugs
+### Resolved Bugs
 - Incorrect syntax in the [style.css](assets/css/style.css) file prevented CSS styling showing in the deployed webpage. Changing 
 ```
 body {
@@ -42,14 +42,31 @@ p {
 ```
 resolved the issue.
 - An unneccessary space in the markdown for the inline links in the Credits section of this README was causing both the display text and the full url to show.
-- A syntax issue was causing the checkbox list in the Menu Items section of the [Prize Draw](giveaway.html) form to display as a text input.
-
-
-### Validator Testing
+- A syntax issue was causing the checkbox list in the Menu Items section of the [Prize Draw](giveaway.html) form to display as a text input. Changing it from a datalist to checkbox tags resolved the issue.
+- Submit button was not properly redirecting to the [thanks](thanks.html) page. 
+Changing
+'''
+<a href="thanks.html">
+  <input type=submit value="Enter Draw">
+</a>
+'''
+to
+'''
+ <button type="submit">Enter Draw</button>
+'''
+and adding
+'''
+method="get" action="thanks.html"
+'''
+to the opening form tag resolved the issue.
+- A missing .jpg file extension was preventing the image for [Milo](assets/images/milo) from showing in the [Our Cats](cats.html) page.
+- The background image was not displaying as intended. Moving the background image css from the main tag into the body tag styling, changing the background-color value to transparent for the columns class and using a relative file path for the image resolved the issue.
 
 ### Unfixed Bugs
 - Google Maps iframe refuses to display in Firefox, Google Chrome and Microsoft Edge browsers. Other browsers untested.
-- Submit button does not properly redirect to the [thanks](thanks.html) page. The link is present and can be used by right clicking and choosing to open the link in a new tab, but does not function on button press. Tested on Firefox, Google Chrome, and Microsoft Edge.
+
+### Validator Testing
+
 ## Deployment
 
 ## Credits
