@@ -11,9 +11,9 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - The Contact section features the telephone, email address, and the physical address of the cafe.
 - A Map section features an embedded map so visitors can also have a visual guide for the location of the cafe.
 - The footer section features links to social media sites. The footer is the same across all pages.
-- The Our Cats page will feature three short bios of the cafe's resident cats, including a photo of each cat.
-- The Prize Draw page will feature a form with various inputs, allowing the user to submit their details for the chance to win a prize. It should also include a brief description of the prize.
-- The submit button for the form will redirect the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. This page will only be accessible by clicking the submit button, and should otherwise be invisible to site visitors.
+- The Our Cats page features three short bios of the cafe's resident cats, including a photo of each cat.
+- The Prize Draw page features a form with various inputs, allowing the user to submit their details for the chance to win a prize. It also includes a brief description of the prize.
+- The submit button for the form will redirect the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. This page is only accessible by clicking the submit button, and should otherwise be invisible to site visitors.
 
 ### Features Left to Implement
 - The navigation bar was intended to be sticky, remaining at the top of the page when the user scrolls down, while the rest of the header remains in place. At present this is beyond my capabilities, but can be added in the future.
