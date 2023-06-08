@@ -111,6 +111,10 @@ menu {
     text-align: center;
 }
 
+.extra-pad {
+    padding-bottom: 30px;
+}
+
 /* Our Cats */
 .cat-align {
     display: flex;
