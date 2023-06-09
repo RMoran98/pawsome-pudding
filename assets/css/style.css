@@ -188,13 +188,6 @@ menu {
     color:#00c9a9;
 }
 
-.mail-icon {
-    color:#00c9a9;
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
 /* Screen Reader text */
 .screen-read {
     clip: rect(1px 1px 1px 1px); /* IE 6/7 */
