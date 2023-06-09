@@ -168,7 +168,7 @@ menu {
 /* Prize Draw */
 .form-rows {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -203,4 +203,20 @@ menu {
     position: absolute;
     white-space: nowrap;
     width: 1px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1120px) {
+    .columns {
+        flex-direction: column;
+    }
+    .cat-align {
+        flex-direction: column;
+    }
+    .flip-cat {
+        flex-direction: column;
+    }
+    .form-rows {
+        flex-direction: column;
+    }
 }
