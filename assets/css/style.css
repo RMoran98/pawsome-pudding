@@ -201,6 +201,9 @@ button {
 
 /* Media Queries */
 @media screen and (max-width: 1120px) {
+    p, nav {
+        font-size: 5vw;
+    }
     .columns {
         flex-direction: column;
     }
@@ -215,6 +218,7 @@ button {
         margin: 0px;
         padding-top: 20px;
         padding-bottom: 20px;
+        max-height: none;
     } 
     .cat-container {
         align-self: center;
