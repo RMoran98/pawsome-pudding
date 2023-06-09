@@ -181,11 +181,17 @@ menu {
 
 /* Font Awesome icons */
 .fa-paw {
-    color:#00c9a9
+    color:#00c9a9;
 }
 
 .fa-brands {
     color:#00c9a9;
+}
+
+.mail-icon {
+    color:#00c9a9;
+    display: flex;
+    justify-content: center;
 }
 
 /* Screen Reader text */
