@@ -205,10 +205,20 @@ button {
         flex-direction: column;
     }
     .cat-align {
-        flex-direction: column;
+        flex-direction: column; 
     }
     .flip-cat {
         flex-direction: column;
+    }
+    .cat-bio {
+        align-self: center;
+        margin: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    } 
+    .cat-container {
+        align-self: center;
+        margin: 0;
     }
     .form-rows {
         flex-direction: column;
