@@ -30,12 +30,25 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - As a smartphone user, I want the website to adapt to the size of my screen, so that it remains readable for me.
 
 ### Color Scheme
-As a cat cafe is a place a customer might go to relax, I wanted a color palette on the cool side of the spectrum, since these colors are more relaxing. I chose a dark purple to begin with, then generated a color palette from there. 
+As a cat cafe is a place a customer might go to relax, I wanted a color palette on the cool side of the spectrum, since these colors are more relaxing. I chose a dark purple to begin with, then generated a [color palette](documentation/color-palette.png) from there. 
 
-Then I tested my color palette to ensure the colors would be readable and have good contrast once implemented. My results showed that a font color of #5e3a98 and a background color of #fbeaff was the most readable combination. I decided to use the color #00c9a9 as a border color, to add some interest.
+Then I tested my color palette to ensure the colors would be readable and have good contrast once implemented. [My results](documentation/contrast-test.png) showed that a font color of #5e3a98 and a background color of #fbeaff was the most readable combination. I decided to use the color #00c9a9 as a border color, to add some interest.
 
 ### Fonts
 For accessibility purposes, I wanted an easy to read font. I researched the fonts available from Google Fonts and decided to use the Open Sans font for main text, combined with Montserrat for the headings.
+
+### Wireframes
+#### Desktop
+- [Home](documentation/desk-home.png)
+- [Our Cats](documentation/desk-cats.png)
+- [Prize Draw](documentation/desk-form.png)
+- [Thanks](documentation/desk-thanks.png)
+
+#### Mobile and Tablet
+- [Home](documentation/mobile-home.png)
+- [Our Cats](documentation/mobile-cats.png)
+- [Prize Draw](documentation/mobile-form.png)
+- [Thanks](documentation/mobile-thanks.png)
 
 ## Testing
 ### Resolved Bugs
