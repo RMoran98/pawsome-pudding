@@ -90,6 +90,11 @@ to the opening form tag resolved the issue.
 
 ### Unfixed Bugs
 - Google Maps iframe refuses to display in Firefox, Google Chrome and Microsoft Edge browsers. Other browsers untested.
+- On the index.html page, the font awesome icon "fa-solid fa-envelopes-bulk fa-2xl" is duplicating itself. When using the inspect feature, the code displays extra
+```
+<i class="fa-solid fa-envelopes-bulk fa-2xl">
+```
+between sections, which is not present in the code pushed to GitHub. This is also causing visual distortion of the map and footer elements.
 
 ### Validator Testing
 
