@@ -67,7 +67,9 @@
             <fieldset>
                 <legend>Menu Items</legend>
                 <h2>What are your preferred menu items?</h2>
+                <br>
                 <p>(Please check all that apply)</p>
+                <br>
                 <input type="checkbox" name="menu_items" value="Pancakes">Pancakes<br>
                 <input type="checkbox" name="menu_items" value="Banana Muffin">Banana Muffin<br>
                 <input type="checkbox" name="menu_items" value="Raspberry Muffin">Raspberry Muffin<br>
@@ -83,18 +85,24 @@
                 <legend>Favourite Cat</legend>
                 <h2>Which cat is your favourite and why?</h2>
                 <!--radio buttons-->
-                <input id="kaz" type="radio" name="cat" value="kaz">
-                <label for="kaz">Kaz</label>
-
-                <input id="bailey" type="radio" name="cat" value="bailey">
-                <label for="bailey">Bailey</label>
-
-                <input id="milo" type="radio" name="cat" value="milo">
-                <label for="milo">Milo</label>
+                <div class="form-rows">
+                    <span>
+                        <input id="kaz" type="radio" name="cat" value="kaz">
+                        <label for="kaz">Kaz</label>
+                    </span>
+                    <span>
+                        <input id="bailey" type="radio" name="cat" value="bailey">
+                        <label for="bailey">Bailey</label>
+                    </span>
+                    <span>
+                        <input id="milo" type="radio" name="cat" value="milo">
+                        <label for="milo">Milo</label>
+                    </span>
+                </div>
                 <br>
 
                 <!--text area-->
-                <textarea name="why_cat" placeholder="I like this cat because..." rows="15" cols="80" resize="vertical"></textarea>
+                <textarea class="center-area" name="why_cat" placeholder="I like this cat because..." rows="15" cols="39" resize="vertical"></textarea>
             </fieldset>
             <br>
         <!--submit button-->
