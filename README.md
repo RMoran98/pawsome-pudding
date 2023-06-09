@@ -87,14 +87,15 @@ method="get" action="thanks.html"
 to the opening form tag resolved the issue.
 - A missing .jpg file extension was preventing the image for [Milo](assets/images/milo) from showing in the [Our Cats](cats.html) page.
 - The background image was not displaying as intended. Moving the background image css from the main tag into the body tag styling, changing the background-color value to transparent for the columns class and using a relative file path for the image resolved the issue.
-
-### Unfixed Bugs
-- Google Maps iframe refuses to display in Firefox, Google Chrome and Microsoft Edge browsers. Other browsers untested.
-- On the index.html page, the font awesome icon "fa-solid fa-envelopes-bulk fa-2xl" is duplicating itself. When using the inspect feature, the code displays extra
+- On the index.html page, the font awesome icon "fa-solid fa-envelopes-bulk fa-2xl" was duplicating itself. When using the inspect feature in-browser, the code displayed extra
 ```
 <i class="fa-solid fa-envelopes-bulk fa-2xl">
 ```
-between sections, which is not present in the code pushed to GitHub. This is also causing visual distortion of the map and footer elements.
+between sections, which was not present in the code pushed to GitHub. This was also causing visual distortion of the map and footer elements. I resolved the issue by removing the original icon which was duplicating.
+
+### Unfixed Bugs
+- Google Maps iframe refuses to display in Firefox, Google Chrome and Microsoft Edge browsers. Other browsers untested.
+
 
 ### Validator Testing
 
