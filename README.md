@@ -9,7 +9,7 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - The Why We Love Cats section has a brief description of the cafe and why its owners decided to open a cat cafe.
 - The Food and Drink Menus allow the user to see allergen information and determine if Pawsome Pudding will cater to their dietary needs.
 - The Contact section features the telephone, email address, and the physical address of the cafe.
-- A Map section features an embedded map so visitors can also have a visual guide for the location of the cafe.
+- A map image shows the user where the cafe is located.
 - The footer section features links to social media sites. The footer is the same across all pages.
 - The Our Cats page features three short bios of the cafe's resident cats, including a photo of each cat.
 - The Prize Draw page features a form with various inputs, allowing the user to submit their details for the chance to win a prize. It also includes a brief description of the prize.
@@ -17,6 +17,7 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 
 ### Features Left to Implement
 - The navigation bar was intended to be sticky, remaining at the top of the page when the user scrolls down, while the rest of the header remains in place. At present this is beyond my capabilities, but can be added in the future.
+- The map was intended to be displayed as an iframe of Google Maps so that the user could interact with it, but I was unfamiliar with the API requirements. Curently, I have commented out the iframe element and inserted a screenshot of Google Maps as a replacement, but ideally I would revisit this in future and reimplement the iframe.
 
 ## Design
 ### User Stories
@@ -89,7 +90,6 @@ The live link for the website can be found [here](https://rmoran98.github.io/paw
 - The README was created and formatted based on Code Institute's [Sample README](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/), [README Template](https://github.com/Code-Institute-Solutions/readme-template) and [Iullia Konovalova's Animal Shelter README](https://github.com/IuliiaKonovalova/animal_shelter/tree/main)
 - The [Github tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) was used to learn the markdown syntax for the README
 - This [HTML tutorial](https://html5-tutorial.net/forms/checkboxes/) was used to fix an issue with the checkboxes in the form on the [Prize Draw(giveaway.html)] page
-- The address used for the Google Maps iframe in the [index.html](index.html) file is that of [The Seafood Bar at Kirwan's](https://www.google.com/maps/place/The+Seafood+Bar+at+Kirwan's/@53.2713828,-9.0548901,19z/data=!4m6!3m5!1s0x485b96e594d6a7bb:0xc070c1f7418154b2!8m2!3d53.2713828!4d-9.0543641!16s%2Fg%2F1v1tmhd2?entry=ttu)
 - The fonts used were obtained from [Google Fonts](https://fonts.google.com/)
 - For the flexbox CSS, I followed two tutorials; [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [Kevin Powell](https://www.youtube.com/watch?v=u044iM9xsWU)
 - This [Yale University tutorial](https://usability.yale.edu/web-accessibility/articles/links) was used to add text for screen readers to the header and footer links.
@@ -110,7 +110,9 @@ The live link for the website can be found [here](https://rmoran98.github.io/paw
 ### Media
 [Font Awesome](https://fontawesome.com/) icons have been used on all html pages.
 
-Images were taken from [Pexels](https://www.pexels.com/)
+The image for the map in index.html is a screenshot of the Google Maps display of [The Seafood bar at Kirwan's](https://www.google.com/maps/place/The+Seafood+Bar+at+Kirwan's/@53.2713828,-9.0548901,19z/data=!4m6!3m5!1s0x485b96e594d6a7bb:0xc070c1f7418154b2!8m2!3d53.2713828!4d-9.0543641!16s%2Fg%2F1v1tmhd2?entry=ttu). This is also the source link used for the commented out iframe on the same page.
+
+The following images were taken from [Pexels](https://www.pexels.com/)
 - ["Milo"](https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/)
 - ["Bailey"](https://www.pexels.com/photo/black-and-white-cat-with-tongue-out-1317844/)
 - ["Kaz"](https://www.pexels.com/photo/black-cat-1931369/)
