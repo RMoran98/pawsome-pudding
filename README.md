@@ -136,6 +136,18 @@ between sections, which was not present in the code pushed to GitHub. This was a
 - The CSS stylesheet shows no warnings or errors
 ![CSS validation results](documentation/validator-css.png)
 
+- Lighthouse results for the Home page:
+![Home results](documentation/lighthouse-home.png)
+
+- Lighthouse results for the Our Cats page:
+![Our Cats results](documentation/lighthouse-cats.png)
+
+- Lighthouse results for the Prize Draw page:
+![Prize Draw results](documentation/lighthouse-giveaway.png)
+
+- Lighthouse results for the Thanks page:
+![Thanks results](documentation/lighthouse-thanks.png)
+
 ### Manual Testing
 
 ## Deployment
@@ -166,11 +178,12 @@ The live link for the website can be found [here](https://rmoran98.github.io/paw
 - The code to redirect the user from thanks.html back to index.html was provided by [Iullia Konovalova](https://github.com/IuliiaKonovalova)
 - HTML was validated using the [W3C HTML validator](https://validator.w3.org/)
 - CSS was validated using the [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+- I used [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to test the performance and accessibility of my website
 
 ### Media
 [Font Awesome](https://fontawesome.com/) icons have been used on all html pages.
 
-The image for the map in index.html is a screenshot of the Google Maps display of [The Seafood bar at Kirwan's](https://www.google.com/maps/place/The+Seafood+Bar+at+Kirwan's/@53.2713828,-9.0548901,19z/data=!4m6!3m5!1s0x485b96e594d6a7bb:0xc070c1f7418154b2!8m2!3d53.2713828!4d-9.0543641!16s%2Fg%2F1v1tmhd2?entry=ttu). This is also the source link used for the commented out iframe on the same page.
+The image for the map in index.html is a screenshot of the Google Maps display of [The Seafood bar at Kirwan's](https://www.google.com/maps/place/The+Seafood+Bar+at+Kirwan's/@53.2713828,-9.0548901,19z/data=!4m6!3m5!1s0x485b96e594d6a7bb:0xc070c1f7418154b2!8m2!3d53.2713828!4d-9.0543641!16s%2Fg%2F1v1tmhd2?entry=ttu).
 
 The following images were taken from [Pexels](https://www.pexels.com/)
 - ["Milo"](https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/)
