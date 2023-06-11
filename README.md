@@ -30,9 +30,11 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - As a smartphone user, I want the website to adapt to the size of my screen, so that it remains readable for me.
 
 ### Color Scheme
-As a cat cafe is a place a customer might go to relax, I wanted a color palette on the cool side of the spectrum, since these colors are more relaxing. I chose a dark purple to begin with, then generated a [color palette](documentation/color-palette.png) from there. 
+As a cat cafe is a place a customer might go to relax, I wanted a color palette on the cool side of the spectrum, since these colors are more relaxing. I chose a dark purple to begin with, then generated a color palette from there. 
+![My Color Palette](documentation/color-palette)
 
-Then I tested my color palette to ensure the colors would be readable and have good contrast once implemented. [My results](documentation/contrast-test.png) showed that a font color of #5e3a98 and a background color of #fbeaff was the most readable combination. I decided to use the color #00c9a9 as a border color, to add some interest.
+Then I tested my color palette to ensure the colors would be readable and have good contrast once implemented. My results showed that a font color of #5e3a98 and a background color of #fbeaff was the most readable combination. I decided to use the color #00c9a9 as a border color, to add some interest.
+![My Results](documentation/contrast-test)
 
 ### Fonts
 For accessibility purposes, I wanted an easy to read font. I researched the fonts available from Google Fonts and decided to use the Open Sans font for main text, combined with Montserrat for the headings.
@@ -99,6 +101,17 @@ between sections, which was not present in the code pushed to GitHub. This was a
 
 
 ### Validator Testing
+- The Home page shows no warnings or errors
+![Home Page Results](documentation/validator-home.png)
+
+- The Our Cats page shows no warnings or errors
+![Our Cats Results](documentation/validator-cats.png)
+
+- The Prize Draw page shows no warnings or errors
+![Prize Draw Results](documentation/validator-giveaway.png)
+
+- The Thanks page shows no warnings or errors
+![Thanks Results](documentation/validator-thanks.png)
 
 ## Deployment
 To deploy this website, first clone it under the code dropdown menu at the [GitHub Respository](https://github.com/RMoran98/pawsome-pudding). Next, navigate to settings > pages in the cloned GitHub repository. Under Build and Deployment > Branch, select main for the branch and save. 
@@ -125,7 +138,9 @@ The live link for the website can be found [here](https://rmoran98.github.io/paw
 - The Wireframes were created using [balsamiq](https://balsamiq.com/)
 - The code repository was created from this [Code Institute template](https://github.com/Code-Institute-Org/ci-full-template)
 - Photos were edited using [Microsoft Windows 10's inbuilt Photos app](https://www.microsoft.com/en-gb/software-download/windows10)
-- The code to redirect the user from thanks.html back to index.html was provided by [Iullia Konovalova](https://github.com/IuliiaKonovalova).
+- The code to redirect the user from thanks.html back to index.html was provided by [Iullia Konovalova](https://github.com/IuliiaKonovalova)
+- HTML was validated using the [W3C HTML validator](https://validator.w3.org/)
+- CSS was validated using the [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
 
 ### Media
 [Font Awesome](https://fontawesome.com/) icons have been used on all html pages.
