@@ -31,10 +31,10 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 
 ### Color Scheme
 As a cat cafe is a place a customer might go to relax, I wanted a color palette on the cool side of the spectrum, since these colors are more relaxing. I chose a dark purple to begin with, then generated a color palette from there. 
-![My Color Palette](documentation/color-palette)
+![Color palette with three different shades of purple and pne shade of turquoise/cyan](documentation/color-palette.png)
 
-Then I tested my color palette to ensure the colors would be readable and have good contrast once implemented. My results showed that a font color of #5e3a98 and a background color of #fbeaff was the most readable combination. I decided to use the color #00c9a9 as a border color, to add some interest.
-![My Results](documentation/contrast-test)
+Then I tested my color palette to ensure the colors would be readable and have good contrast once implemented. My results showed that a font color of `#5e3a98` and a background color of `#fbeaff` was the most readable combination. I decided to use the color `#00c9a9` as a border color, to add some interest.
+![The contrast test results](documentation/contrast-test.png)
 
 ### Fonts
 For accessibility purposes, I wanted an easy to read font. I researched the fonts available from Google Fonts and decided to use the Open Sans font for main text, combined with Montserrat for the headings.
@@ -102,16 +102,16 @@ between sections, which was not present in the code pushed to GitHub. This was a
 
 ### Validator Testing
 - The Home page shows no warnings or errors
-![Home Page Results](documentation/validator-home.png)
+![Home validation results](documentation/validator-home.png)
 
 - The Our Cats page shows no warnings or errors
-![Our Cats Results](documentation/validator-cats.png)
+![Our Cats validation results](documentation/validator-cats.png)
 
 - The Prize Draw page shows no warnings or errors
-![Prize Draw Results](documentation/validator-giveaway.png)
+![Prize Draw validation results](documentation/validator-giveaway.png)
 
 - The Thanks page shows no warnings or errors
-![Thanks Results](documentation/validator-thanks.png)
+![Thanks page validation results](documentation/validator-thanks.png)
 
 ## Deployment
 To deploy this website, first clone it under the code dropdown menu at the [GitHub Respository](https://github.com/RMoran98/pawsome-pudding). Next, navigate to settings > pages in the cloned GitHub repository. Under Build and Deployment > Branch, select main for the branch and save. 
