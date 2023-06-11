@@ -92,6 +92,10 @@ button {
     margin-left: 20px;
 }
 
+textarea {
+    max-width: 80vw;
+}
+
 /* Home */
 .columns {
     display: flex;
@@ -186,6 +190,7 @@ button {
 
 .form-spacer {
     padding-right: 15px;
+    padding-bottom: 10px;
 }
 
 /* Nav bar and footer links */
