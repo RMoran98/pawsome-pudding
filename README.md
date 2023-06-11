@@ -92,6 +92,7 @@ to the opening form tag resolved the issue.
 <i class="fa-solid fa-envelopes-bulk fa-2xl">
 ```
 between sections, which was not present in the code pushed to GitHub. This was also causing visual distortion of the map and footer elements. I resolved the issue by removing the original icon which was duplicating.
+- Incorrect width for the header and footer elements was causing the webpage to always display a horizontal scrollbar. Changing the width value from 100% to 100vw fixed the problem.
 
 ### Unfixed Bugs
 - Google Maps iframe refuses to display in Firefox, Google Chrome and Microsoft Edge browsers. Other browsers untested.
