@@ -41,13 +41,13 @@ header {
     position: absolute;
     top: 0;
     border-bottom: 2px solid#00c9a9;
-    min-width: 90vw;
+    min-width: 100%;
     max-width: 100vw;
 }
 
 footer {
     border-top: 2px solid#00c9a9;
-    min-width: 90vh;
+    min-width: 100%;
     max-width: 100vw;
     height: 2.5rem;
 }
