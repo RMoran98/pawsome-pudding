@@ -6,14 +6,34 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - Header
   - The Header includes the website name, tagline, logo and navigation bar, and is the same on all pages of the website.
   - The navigation bar contains links to the Home, Our Cats, and Prize Draw pages. This will allow the user to easily move between pages. 
+  ![Header](documentation/header.png)
+
 - The Why We Love Cats section has a brief description of the cafe and why its owners decided to open a cat cafe.
+![Why We Love Cats](documentation/about-us.png)
+
 - The Food and Drink Menus allow the user to see allergen information and determine if Pawsome Pudding will cater to their dietary needs.
+![Food and Drink Menus](documentation/menu.png)
+
 - The Contact section features the telephone, email address, and the physical address of the cafe.
+![Contact](documentation/contact.png)
+
 - A map image shows the user where the cafe is located.
-- The footer section features links to social media sites. The footer is the same across all pages.
+![Map](documentation/map-section.png)
+
+- The footer section features links to social media sites, displayed as Font Awesome icons. The footer is the same across all pages.
+![Footer](documentation/footer.png)
+
 - The Our Cats page features three short bios of the cafe's resident cats, including a photo of each cat.
+![Our Cats](documentation/cats.png)
+
 - The Prize Draw page features a form with various inputs, allowing the user to submit their details for the chance to win a prize. It also includes a brief description of the prize.
-- The submit button for the form will redirect the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. This page is only accessible by clicking the submit button, and should otherwise be invisible to site visitors.
+![Prize Draw](documentation/form.png)
+
+- The submit button for the form redirects the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. 
+![Submit button](documentation/submit-button.png)
+
+- The thank you page is only accessible by clicking the submit button, and should otherwise be invisible to site visitors. After 10 seconds, it will redirect the user back to the Home page.
+![Thanks Page](documentation/thanks.png)
 
 ### Features Left to Implement
 - The navigation bar was intended to be sticky, remaining at the top of the page when the user scrolls down, while the rest of the header remains in place. At present this is beyond my capabilities, but can be added in the future.
