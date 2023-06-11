@@ -213,7 +213,7 @@ textarea {
 
 /* Screen Reader text */
 .screen-read {
-    clip-path: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(1px 1px 1px 1px);
     height: 1px;
     overflow: hidden;
     position: absolute;
