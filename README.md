@@ -149,6 +149,12 @@ between sections, which was not present in the code pushed to GitHub. This was a
 ![Thanks results](documentation/lighthouse-thanks.png)
 
 ### Manual Testing
+- The navigation bar and footer links have been tested and lead to the correct webpage.
+- The form elements on the Prize Draw page behave as expected.
+- The submit button redirects the user to the Thanks page.
+- The Thanks page will redirect the user back to the Home page.
+- Images display as expected.
+- The viewing experience on different screens has been tested and is as follows:
 
 ## Deployment
 To deploy this website, first clone it under the code dropdown menu at the [GitHub Respository](https://github.com/RMoran98/pawsome-pudding). Next, navigate to settings > pages in the cloned GitHub repository. Under Build and Deployment > Branch, select main for the branch and save. 
@@ -179,6 +185,7 @@ The live link for the website can be found [here](https://rmoran98.github.io/paw
 - HTML was validated using the [W3C HTML validator](https://validator.w3.org/)
 - CSS was validated using the [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
 - I used [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to test the performance and accessibility of my website
+- To test how the website looks on different screens I used [Chrome Devtools](https://developer.chrome.com/docs/devtools/) and the [Responsive Viewer extension](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
 
 ### Media
 [Font Awesome](https://fontawesome.com/) icons have been used on all html pages.
