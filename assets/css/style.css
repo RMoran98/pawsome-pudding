@@ -177,6 +177,10 @@ button {
     justify-content:center;
 }
 
+.form-spacer {
+    padding-right: 15px;
+}
+
 /* Nav bar and footer links */
 .bar-link {
     display: flex;
