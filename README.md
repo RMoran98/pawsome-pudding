@@ -17,7 +17,7 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 
 ### Features Left to Implement
 - The navigation bar was intended to be sticky, remaining at the top of the page when the user scrolls down, while the rest of the header remains in place. At present this is beyond my capabilities, but can be added in the future.
-- The map was intended to be displayed as an iframe of Google Maps so that the user could interact with it, but I was unfamiliar with the API requirements. Curently, I have commented out the iframe element and inserted a screenshot of Google Maps as a replacement, but ideally I would revisit this in future and reimplement the iframe.
+- The map was intended to be displayed as an iframe of Google Maps so that the user could interact with it, but I was unfamiliar with the API requirements. Curently, I have removed the iframe element and inserted a screenshot of Google Maps as a replacement, but ideally I would revisit this in future and reimplement the iframe.
 
 ## Design
 ### User Stories
