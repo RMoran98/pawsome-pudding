@@ -155,9 +155,10 @@ between sections, which was not present in the code pushed to GitHub. This was a
 - The Thanks page will redirect the user back to the Home page.
 - Images display as expected.
 - The viewing experience on different screens has been tested and is as follows:
+![Responsive Screen view](documentation/responsive.png)
 
 ## Deployment
-To deploy this website, first clone it under the code dropdown menu at the [GitHub Respository](https://github.com/RMoran98/pawsome-pudding). Next, navigate to settings > pages in the cloned GitHub repository. Under Build and Deployment > Branch, select main for the branch and save. 
+To deploy this website, first clone it under the code dropdown menu at the [GitHub Respository](https://github.com/RMoran98/pawsome-pudding). Next, navigate to settings > pages in the cloned GitHub repository. Under Build and Deployment > Branch, select main for the branch and save.  
 
 The live link for the website can be found [here](https://rmoran98.github.io/pawsome-pudding/).
 
