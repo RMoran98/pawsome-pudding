@@ -122,6 +122,13 @@ button {
     object-fit: cover;  
 }
 
+.map-box {
+    background-color:#fbeaff;
+    padding: 20px;
+    border: 2px solid #00c9a9;
+    margin: 20px;
+}
+
 /* Our Cats */
 .cat-align {
     display: flex;
