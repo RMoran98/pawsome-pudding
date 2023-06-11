@@ -52,7 +52,7 @@ For accessibility purposes, I wanted an easy to read font. I researched the font
 - [Prize Draw](documentation/mobile-form.png)
 - [Thanks](documentation/mobile-thanks.png)
 
-## Testing
+## Bugs
 ### Resolved Bugs
 - Incorrect syntax in the [style.css](assets/css/style.css) file prevented CSS styling showing in the deployed webpage. Changing 
 ```
@@ -94,12 +94,12 @@ to the opening form tag resolved the issue.
 <i class="fa-solid fa-envelopes-bulk fa-2xl">
 ```
 between sections, which was not present in the code pushed to GitHub. This was also causing visual distortion of the map and footer elements. I resolved the issue by removing the original icon which was duplicating.
-- Incorrect width for the header and footer elements was causing the webpage to always overflow and display a horizontal scrollbar. Changing the width value from 100% to a min-width of 90vw and a max-width of 100vw fixed the issue.
 
 ### Unfixed Bugs
 - Google Maps iframe refuses to display in Firefox, Google Chrome and Microsoft Edge browsers. Other browsers untested.
+- An issue is causing the header and footer to overflow, and the webpage to allow horizontal scrolling. I attempted to fix this by re-cropping the background image into different aspect ratios, changing the `width:100%` CSS property to `width 100vw`, then to `min-width:90 vw; max-width: 100vw;`. None of these fixes have worked.
 
-
+## Testing
 ### Validator Testing
 - The Home page shows no warnings or errors
 ![Home validation results](documentation/validator-home.png)
@@ -112,6 +112,11 @@ between sections, which was not present in the code pushed to GitHub. This was a
 
 - The Thanks page shows no warnings or errors
 ![Thanks page validation results](documentation/validator-thanks.png)
+
+- The CSS stylesheet shows no warnings or errors
+![CSS validation results](documentation/validator-css.png)
+
+### Manual Testing
 
 ## Deployment
 To deploy this website, first clone it under the code dropdown menu at the [GitHub Respository](https://github.com/RMoran98/pawsome-pudding). Next, navigate to settings > pages in the cloned GitHub repository. Under Build and Deployment > Branch, select main for the branch and save. 
