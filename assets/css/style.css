@@ -118,7 +118,7 @@ button {
     cursor: pointer;
 }
 
-button :hover {
+button:hover {
     background-color: #fbeaff;
     color: #5E3A98;
     border: 5px inset;
@@ -129,8 +129,9 @@ textarea {
     resize: none;
 }
 
-a :hover {
-    background-color: #00c9a9;
+a:hover {
+    background-color: #5E3A98;
+    color: #00c9a9;
 }
 
 /* Home */
@@ -145,7 +146,7 @@ a :hover {
 }
 
 .home-box {
-    width: 42.5%;
+    width: 46.5%;
 }
 
 .menu {
