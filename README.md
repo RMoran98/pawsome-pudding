@@ -6,10 +6,10 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 #### Header and Footer
 - Header
   - The Header includes the website name, tagline, logo and navigation bar, and is the same on all pages of the website.
-  - The navigation bar contains links to the Home, Our Cats, and Prize Draw pages. This will allow the user to easily move between pages. 
+  - The navigation bar contains links to the Home, Our Cats, and Prize Draw pages. This will allow the user to easily move between pages. The links change background color and font color on hovering the mouse over them so the user can easily see they are over a link. Aria labels are used to add accesibility for screen readers.
   ![Header](documentation/header.png)
 
-- The footer section features links to social media sites, displayed as Font Awesome icons. The footer is the same across all pages.
+- The footer section features links to social media sites, displayed as Font Awesome icons. The footer is the same across all pages. On hovering the mouse over them, the link icons gain a background color to show the user they are mousing over a link. Aria labels are also used here to add accessibility to screen readers.
 ![Footer](documentation/footer.png)
 
 #### Home
@@ -33,7 +33,7 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - The Prize Draw page features a form with various inputs, allowing the user to submit their details for the chance to win a prize. It also includes a brief description of the prize.
 ![Prize Draw](documentation/form.png)
 
-- The submit button for the form redirects the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. 
+- The submit button for the form redirects the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. The button changes appearance on hovering the mouse over it, and the cursor is displayed as a pointer, so the user can easily tell they are about to click it.
 ![Submit button](documentation/submit-button.png)
 
 #### Thank You
