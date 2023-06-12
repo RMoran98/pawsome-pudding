@@ -115,11 +115,22 @@ button {
     border: 5px outset;
     padding: 20px 60px;
     margin-left: 20px;
+    cursor: pointer;
+}
+
+button :hover {
+    background-color: #fbeaff;
+    color: #5E3A98;
+    border: 5px inset;
 }
 
 textarea {
     max-width: 80vw;
     resize: none;
+}
+
+a :hover {
+    background-color: #00c9a9;
 }
 
 /* Home */
