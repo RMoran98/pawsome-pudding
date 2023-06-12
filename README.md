@@ -105,21 +105,14 @@ Changing
 </a>
 ```
 to
-```
- <button type="submit">Enter Draw</button>
-```
+`<button type="submit">Enter Draw</button>`
 and adding
-```
-method="get" action="thanks.html"
-```
+`method="get" action="thanks.html"`
 to the opening form tag resolved the issue.
 - A missing .jpg file extension was preventing the image for [Milo](assets/images/milo) from showing in the [Our Cats](cats.html) page.
 - The background image was not displaying as intended. Moving the background image css from the main tag into the body tag styling, changing the background-color value to transparent for the columns class and using a relative file path for the image resolved the issue.
 - On the index.html page, the font awesome icon "fa-solid fa-envelopes-bulk fa-2xl" was duplicating itself. When using the inspect feature in-browser, the code displayed extra
-```
-<i class="fa-solid fa-envelopes-bulk fa-2xl">
-```
-between sections, which was not present in the code pushed to GitHub. This was also causing visual distortion of the map and footer elements. I resolved the issue by removing the original icon which was duplicating.
+`<i class="fa-solid fa-envelopes-bulk fa-2xl">` between sections, which was not present in the code pushed to GitHub. This was also causing visual distortion of the map and footer elements. I resolved the issue by removing the original icon which was duplicating.
 - A missing `padding: 0; box-sizing: border-box;` under the global CSS styling was causing the website to overflow past the viewport and display a horizontal scroll bar.
 
 ### Unfixed Bugs
@@ -163,6 +156,8 @@ between sections, which was not present in the code pushed to GitHub. This was a
 - The submit button redirects the user to the Thanks page.
 - The Thanks page will redirect the user back to the Home page.
 - Images display as expected.
+- The background and font color of the links change on hover.
+- The button changes background color, font color, and border style on hover.
 
 ### Responsiveness
 - The viewing experience on different screens has been tested and is as follows:
