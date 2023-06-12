@@ -1,13 +1,18 @@
 # Pawsome Pudding
-Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the menu, read about the resident cats, enter into a prize draw, and find the contact information and address of the cafe. The website is aimed at cat lovers.
+Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the menu, read about the resident cats, enter into a prize draw, and find the contact information and address of the cafe. The website is aimed at cat lovers. The website can be found [here](https://rmoran98.github.io/pawsome-pudding/).
 
 ## Features
 ### Existing Features
+#### Header and Footer
 - Header
   - The Header includes the website name, tagline, logo and navigation bar, and is the same on all pages of the website.
   - The navigation bar contains links to the Home, Our Cats, and Prize Draw pages. This will allow the user to easily move between pages. 
   ![Header](documentation/header.png)
 
+- The footer section features links to social media sites, displayed as Font Awesome icons. The footer is the same across all pages.
+![Footer](documentation/footer.png)
+
+#### Home
 - The Why We Love Cats section has a brief description of the cafe and why its owners decided to open a cat cafe.
 ![Why We Love Cats](documentation/about-us.png)
 
@@ -20,24 +25,25 @@ Pawsome Pudding is a website for a cat cafe. Visitors to the site can view the m
 - A map image shows the user where the cafe is located.
 ![Map](documentation/map-section.png)
 
-- The footer section features links to social media sites, displayed as Font Awesome icons. The footer is the same across all pages.
-![Footer](documentation/footer.png)
-
+#### Our Cats
 - The Our Cats page features three short bios of the cafe's resident cats, including a photo of each cat.
 ![Our Cats](documentation/cats.png)
 
+#### Prize Draw
 - The Prize Draw page features a form with various inputs, allowing the user to submit their details for the chance to win a prize. It also includes a brief description of the prize.
 ![Prize Draw](documentation/form.png)
 
 - The submit button for the form redirects the user to a Thank You page with a short message thanking them for filling out the form, and assuring them that they will be contacted soon. 
 ![Submit button](documentation/submit-button.png)
 
+#### Thank You
 - The thank you page is only accessible by clicking the submit button, and should otherwise be invisible to site visitors. After 10 seconds, it will redirect the user back to the Home page.
 ![Thanks Page](documentation/thanks.png)
 
 ### Features Left to Implement
 - The navigation bar was intended to be sticky, remaining at the top of the page when the user scrolls down, while the rest of the header remains in place. At present this is beyond my capabilities, but can be added in the future.
 - The map was intended to be displayed as an iframe of Google Maps so that the user could interact with it, but I was unfamiliar with the API requirements. Curently, I have removed the iframe element and inserted a screenshot of Google Maps as a replacement, but ideally I would revisit this in future and reimplement the iframe.
+- A custom 404 page.
 
 ## Design
 ### User Stories
@@ -114,13 +120,14 @@ to the opening form tag resolved the issue.
 <i class="fa-solid fa-envelopes-bulk fa-2xl">
 ```
 between sections, which was not present in the code pushed to GitHub. This was also causing visual distortion of the map and footer elements. I resolved the issue by removing the original icon which was duplicating.
+- A missing `padding: 0; box-sizing: border-box;` under the global CSS styling was causing the website to overflow past the viewport and display a horizontal scroll bar.
 
 ### Unfixed Bugs
 - Google Maps iframe refuses to display in Firefox, Google Chrome and Microsoft Edge browsers. Other browsers untested.
-- An issue is causing the header and footer to overflow, and the webpage to allow horizontal scrolling. I attempted to fix this by re-cropping the background image into different aspect ratios, changing the `width:100%` CSS property to `width 100vw`, then to `min-width:90 vw; max-width: 100vw;`. None of these fixes have worked.
 
 ## Testing
 ### Validator Testing
+#### HTML Validator
 - The Home page shows no warnings or errors
 ![Home validation results](documentation/validator-home.png)
 
@@ -133,9 +140,11 @@ between sections, which was not present in the code pushed to GitHub. This was a
 - The Thanks page shows no warnings or errors
 ![Thanks page validation results](documentation/validator-thanks.png)
 
+#### CSS Validator
 - The CSS stylesheet shows no warnings or errors
 ![CSS validation results](documentation/validator-css.png)
 
+#### Lighthouse testing
 - Lighthouse results for the Home page:
 ![Home results](documentation/lighthouse-home.png)
 
@@ -154,6 +163,8 @@ between sections, which was not present in the code pushed to GitHub. This was a
 - The submit button redirects the user to the Thanks page.
 - The Thanks page will redirect the user back to the Home page.
 - Images display as expected.
+
+### Responsiveness
 - The viewing experience on different screens has been tested and is as follows:
 ![Responsive Screen view](documentation/responsive.png)
 
@@ -161,6 +172,9 @@ between sections, which was not present in the code pushed to GitHub. This was a
 To deploy this website, first clone it under the code dropdown menu at the [GitHub Respository](https://github.com/RMoran98/pawsome-pudding). Next, navigate to settings > pages in the cloned GitHub repository. Under Build and Deployment > Branch, select main for the branch and save.  
 
 The live link for the website can be found [here](https://rmoran98.github.io/pawsome-pudding/).
+
+### Local Deployment
+Copy and paste the following into your IDE: `https://github.com/RMoran98/pawsome-pudding.git` followed by the `git clone` command and hit enter. Once your IDE has finished cloning the repository, next type `cd pawsome-pudding/` and hit enter. Then type `clone .` and hit enter a final time.
 
 ## Credits
 ### Content
@@ -170,7 +184,6 @@ The live link for the website can be found [here](https://rmoran98.github.io/paw
 - The fonts used were obtained from [Google Fonts](https://fonts.google.com/)
 - For the flexbox CSS, I followed two tutorials; [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [Kevin Powell](https://www.youtube.com/watch?v=u044iM9xsWU)
 - This [Yale University tutorial](https://usability.yale.edu/web-accessibility/articles/links) was used to add text for screen readers to the header and footer links.
-
 
 ### Tools and Technologies
 - This website is coded using [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
