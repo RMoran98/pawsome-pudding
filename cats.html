@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--Metadata-->
     <meta charset="UTF-8">
@@ -8,13 +9,10 @@
     <meta name="author" content="Rachel Moran">
     <meta name="description" content="A website for a cat cafe">
     <meta name="keywords" content="cats, kittens, pets, cafe, food, menu">
-
     <!--Page title-->
     <title>Pawsome Pudding - Our Cats</title>
-
     <!--The link to the CSS stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
-
     <!--The code for Font Awesome icons-->
     <script src="https://kit.fontawesome.com/e54f532bef.js" crossorigin="anonymous"></script>
 </head>
@@ -29,33 +27,42 @@
         <nav>
             <!--The navigation bar-->
             <ul class="bar-link">
-                <li><a href="index.html">Home<span class="screen-read">Visit our Home page to learn more about us, our menu, and our contact information.</span></a></li>
-                <li><a href="cats.html">Our Cats<span class="screen-read">Visit Our Cats page to learn more about our three resident cats.</span></a></li>
-                <li><a href="giveaway.html">Prize Draw<span class="screen-read">Visit our Prize Draw page and enter your details for a chance to win.</span></a></li>
+                <li><a href="index.html"
+                        aria-label="Visit our Home page to learn more about us, see our menu, find out how to contact us, and see a map of our location">Home</a>
+                </li>
+                <li><a href="cats.html" aria-label="Visit the Our Cats page for short biographies of our cats">Our
+                        Cats</a></li>
+                <li><a href="giveaway.html"
+                        aria-label="Visit our Prize Draw page and enter your details for a chance to win a prize">Prize
+                        Draw</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <br>   
+        <br>
         <!--Kaz' cat profile with image and description-->
         <div class="cat-align">
             <div class="cat-container">
                 <img src="assets/images/kaz.jpg" class="cat-img" alt="A black cat sitting on the back of a sofa.">
-            </div>    
+            </div>
             <div class="cat-bio">
                 <h2>Kaz</h2>
-                <p>Kaz is a 7 year old shorthair cat. He has been with us from the beginning and loves to have his belly rubbed. A rascal with the most energetic personality of our resident cats.</p>
+                <p>Kaz is a 7 year old shorthair cat. He has been with us from the beginning and loves to have his belly
+                    rubbed. A rascal with the most energetic personality of our resident cats.</p>
             </div>
         </div>
         <br>
         <!--Bailey's cat profile with image and description-->
         <div class="cat-align flip-cat">
             <div class="cat-container">
-                <img src="assets/images/bailey.jpg" class="cat-img" alt="A black and white kitten meowing with its mouth open wide.">
+                <img src="assets/images/bailey.jpg" class="cat-img"
+                    alt="A black and white kitten meowing with its mouth open wide.">
             </div>
             <div class="cat-bio flip-bio">
                 <h2>Bailey</h2>
-                <p>Bailey is a 1 year old tuxedo cat. We think his fur pattern makes him look quite snazzy. Although he's dressed to impress, Bailey is quite shy, and is more likely to spend time with our regular customers. His favourite spot for you to scratch is his chin.</p>
+                <p>Bailey is a 1 year old tuxedo cat. We think his fur pattern makes him look quite snazzy. Although
+                    he's dressed to impress, Bailey is quite shy, and is more likely to spend time with our regular
+                    customers. His favourite spot for you to scratch is his chin.</p>
             </div>
         </div>
         <br>
@@ -63,21 +70,30 @@
         <div class="cat-align">
             <div class="cat-container">
                 <img src="assets/images/milo.jpg" class="cat-img" alt="A large ginger tabby cat sitting by a window.">
-            </div>   
+            </div>
             <div class="cat-bio">
                 <h2>Milo</h2>
-                <p>At 12 years old, Milo is our oldest cat. Sunbathing is his favourite activity, so you can usually find him in his windowseat. If you sit next to him, be prepared to hold a conversation, because his second favourite activity is meowing for attention.</p>
+                <p>At 12 years old, Milo is our oldest cat. Sunbathing is his favourite activity, so you can usually
+                    find him in his windowseat. If you sit next to him, be prepared to hold a conversation, because his
+                    second favourite activity is meowing for attention.</p>
             </div>
         </div>
         <br>
     </main>
-
     <footer>
         <ul class="bar-link">
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><span class="screen-read">Visit our Instagram page for updates about our cats.</span><i class="fa-brands fa-instagram fa-lg"></i></a></li>
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><span class="screen-read">Visit our Facebook page and interact with our community.</span><i class="fa-brands fa-square-facebook fa-lg"></i></a></li>
-            <li><a href="https://twitter.com/" target="_blank" rel="noopener"><span class="screen-read">Visit our twitter for tweets "from" our cats.</span><i class="fa-brands fa-square-twitter fa-lg"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram for adorable cat photos"><i
+                        class="fa-brands fa-instagram fa-lg"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page to interact with our community"><i
+                        class="fa-brands fa-square-facebook fa-lg"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter account for tweets from our cats"><i
+                        class="fa-brands fa-square-twitter fa-lg"></i></a>
+            </li>
         </ul>
     </footer>
 </body>
+
 </html>
